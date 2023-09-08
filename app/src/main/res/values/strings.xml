@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Hong Kong School Information Enquiry</string>
+    <string name="text_welcome">Welcome to Hong Kong School Information Enquiry Application!</string>
+    <string name="schoolNo">School No.:&#160;</string>
+    <string name="schoolName">School Name:&#160;</string>
+    <string name="address">Address:&#160;</string>
+    <string name="studentGender">Student Gender:&#160;</string>
+    <string name="session">Session:&#160;</string>
+    <string name="district">District:&#160;</string>
+    <string name="fianceType">Finance Type:&#160;</string>
+    <string name="schoolLevel">School Level:&#160;</string>
+    <string name="telephone">Telephone:&#160;</string>
+    <string name="faxNumber">Fax Number:&#160;</string>
+    <string name="website">Website:&#160;</string>
+    <string name="religion">Religion:&#160;</string>
+    <string name="submit">Search</string>
+    <string name="showMap">Show Map</string>
+    <string name="result">Result(s):</string>
+    <string name="schoolNameHint">Keyword</string>
+    <string-array name="district_array">
+        <item>--</item>
+        <item>ISLANDS</item>
+        <item>KWAI TSING</item>
+        <item>NORTH</item>
+        <item>SAI KUNG</item>
+        <item>SHA TIN</item>
+        <item>TAI PO</item>
+        <item>TSUEN WAN</item>
+        <item>TUEN MUN</item>
+        <item>YUEN LONG</item>
+        <item>KOWLOON CITY</item>
+        <item>KWUN TONG</item>
+        <item>SHAM SHUI PO</item>
+        <item>WONG TAI SIN</item>
+        <item>YAU TSIM MONG</item>
+        <item>CENTRAL AND WESTERN</item>
+        <item>EASTERN</item>
+        <item>SOUTHERN</item>
+        <item>WAN CHAI</item>
+    </string-array>
+    <string-array name="schoolLevel_array">
+        <item>--</item>
+        <item>KINDERGARTEN</item>
+        <item>KINDERGARTEN-CUM-CHILD CARE CENTRES</item>
+        <item>PRIMARY</item>
+        <item>SECONDARY</item>
+    </string-array>
+    <string-array name="financeType_array">
+        <item>--</item>
+        <item>AIDED</item>
+        <item>DIRECT SUBSIDY SCHEME</item>
+        <item>ENGLISH SCHOOLS FOUNDATION</item>
+        <item>GOVERNMENT</item>
+        <item>PRIVATE</item>
+        <item>PRIVATE INDEPENDENT SCH SCHEME</item>
+    </string-array>
+    <string-array name="studentGender_array">
+        <item>--</item>
+        <item>GIRLS</item>
+        <item>BOYS</item>
+        <item>CO-ED</item>
+    </string-array>
+    <string-array name="religion_array">
+        <item>--</item>
+        <item>NOT APPLICABLE</item>
+        <item>CATHOLICISM</item>
+        <item>PROTESTANTISM / CHRISTIANITY</item>
+        <item>BUDDHISM</item>
+        <item>TAOISM</item>
+        <item>ISLAM</item>
+        <item>CONFUCIANISM,BUDDHISM &amp; TAOISM</item>
+        <item>CONFUCIANISM</item>
+        <item>SIKH</item>
+        <item>OTHERS</item>
+    </string-array>
+    <string-array name="session_array">
+        <item>--</item>
+        <item>WHOLE DAY</item>
+        <item>A.M.</item>
+        <item>P.M.</item>
+        <item>EVENING</item>
+    </string-array>
+</resources>
