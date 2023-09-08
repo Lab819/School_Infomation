@@ -73,42 +73,42 @@ public class JsonHandlerThread extends Thread {
                 JSONArray jsonObj = new JSONArray(infoStr);
 
                 // looping through All Contacts
-                for (int i = 1; i < jsonObj.length(); i++) {
+                for (int i = 0; i < jsonObj.length(); i++) {
                     JSONObject c = jsonObj.getJSONObject(i);
 
-                    String A = c.getString("A");
-                    String B = c.getString("B");
-                    String C = c.getString("C");
-                    String D = c.getString("D");
-                    String E = c.getString("E");
-                    String F = c.getString("F");
-                    String G = c.getString("G");
-                    String H = c.getString("H");
-                    String I = c.getString("I");
-                    String J = c.getString("J");
-                    String K = c.getString("K");
-                    String L = c.getString("L");
-                    String M = c.getString("M");
-                    String N = c.getString("N");
-                    String O = c.getString("O");
-                    String P = c.getString("P");
-                    String Q = c.getString("Q");
-                    String R = c.getString("R");
-                    String S = c.getString("S");
-                    String T = c.getString("T");
-                    String U = c.getString("U");
-                    String V = c.getString("V");
-                    String W = c.getString("W");
-                    String X = c.getString("X");
-                    String Y = c.getString("Y");
-                    String Z = c.getString("Z");
-                    String AA = c.getString("AA");
-                    String AB = c.getString("AB");
-                    String AC = c.getString("AC");
-                    String AD = c.getString("AD");
-                    String AE = c.getString("AE");
-                    String AF = c.getString("AF");
-                    String AG = c.getString("AG");
+                    String A = c.getString("SCHOOL NO.");
+                    String B = c.getString("ENGLISH CATEGORY");
+                    String C = c.getString("中文類別");
+                    String D = c.getString("ENGLISH NAME");
+                    String E = c.getString("中文名稱");
+                    String F = c.getString("ENGLISH ADDRESS");
+                    String G = c.getString("中文地址");
+                    String H = c.getString("LONGITUDE");
+                    String I = c.getString("經度");
+                    String J = c.getString("LATITUDE");
+                    String K = c.getString("緯度");
+                    String L = c.getString("EASTING");
+                    String M = c.getString("坐標東");
+                    String N = c.getString("NORTHING");
+                    String O = c.getString("坐標北");
+                    String P = c.getString("STUDENTS GENDER");
+                    String Q = c.getString("就讀學生性別");
+                    String R = c.getString("SESSION");
+                    String S = c.getString("學校授課時間");
+                    String T = c.getString("DISTRICT");
+                    String U = c.getString("分區");
+                    String V = c.getString("FINANCE TYPE");
+                    String W = c.getString("資助種類");
+                    String X = c.getString("SCHOOL LEVEL");
+                    String Y = c.getString("學校類型");
+                    String Z = c.getString("TELEPHONE");
+                    String AA = c.getString("聯絡電話");
+                    String AB = c.getString("FAX NUMBER");
+                    String AC = c.getString("傳真號碼");
+                    String AD = c.getString("WEBSITE");
+                    String AE = c.getString("網頁");
+                    String AF = c.getString("RELIGION");
+                    String AG = c.getString("宗教");
 
                     SchoolInfo.addContact(A, B, C, D, E, F, G, H, I, J, K, L, M, N,
                             O, P, Q, R, S, T, U, V, W, X, Y, Z, AA, AB, AC, AD, AE, AF, AG);
